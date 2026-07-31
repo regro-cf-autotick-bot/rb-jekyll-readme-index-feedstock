@@ -1,5 +1,5 @@
 {% set name = "jekyll-readme-index" %}
-{% set version = "0.2.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 21d649fc2ae4ca6b0c9fa8735f066825be5d65104af65da1a12625f462a6e7d4
+  sha256: b3d8a24579f6ba0e4eaeb5efa80eb91f5fcc691b992ed7826225cc77f395d780
 
 build:
   noarch: generic
